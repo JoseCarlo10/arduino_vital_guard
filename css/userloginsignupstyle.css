@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://i.pinimg.com/736x/53/e4/4c/53e44c8b9d2dab6e2d6920c217a84cf9.jpg') repeat;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h3 {
+    text-align: center;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: green;
+    margin-bottom: 10px;
+}
+
+a {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
